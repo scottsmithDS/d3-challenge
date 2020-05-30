@@ -1,5 +1,6 @@
 // @TODO: YOUR CODE HERE!
 // Load data from hours-of-tv-watched.csv
+console.log("connected")
 d3.csv("../data/data.csv").then(function(data) {
 
     console.log(data);
